@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+body {
+    background-image: url(bac.png);
+    text-align: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.person{
+    content: 'e7f0';
+}
+button{
+    width: 33px;
+    height: 27px;
+    background: none;
+    border: none;
+}
+.sign{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 153px;
+    top: 30px;
+    width: 75%;
+    height: 660px;
+    border: 1px solid #e3e3e3;
+    border-radius: 16px;
+    box-sizing: border-box; 
+    text-align: center;
+    background-color: #e6e6e76a; 
+}
+.f{
+    height: 660px;
+    width: 570px;
+}
+.greethings{
+  background-image: url('right.png');
+}
+p{
+    font-family: 'DynaPuff', cursive;
+    font-size: 50px;
+}
+/* SUBMIT */
+.btn{
+    position: relative;
+    top: 15px;
+    height: 34px;
+    width: 147px;
+    border:2px solid #9e9e9e6a;
+    color: green;
+}
+.btn:hover{
+    background-color: #353bf06a;
+    
+}
+/* LOGIN */
+.login{
+    border-radius: 18px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+.main_text{
+    font-size: 22px;
+}
+.button{
+    margin: 20px;
+}
